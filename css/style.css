@@ -1,0 +1,150 @@
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; */
+    zoom: 1;
+}
+
+body {
+    margin: 0;
+    font-size: 19px;
+    background-color: #d3d9d4;
+    /* background-image: linear-gradient(lightgray, rgb(135, 135, 135)); */
+}
+
+hr{
+    width: 80%;
+}
+
+.icon {
+    /* display: inline-block; */
+    width: 1.3em;
+    height: 1.3em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    color: black;
+    padding: 5px 10px;
+}
+
+.header__top{
+    background-color: gray;
+    text-align: center;  
+}
+
+.header__main{
+    background-color: #272727;
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__main a{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.site-logo img{
+    max-width: 540px;
+    max-height: 40px;
+    object-fit: cover;
+    margin-left: 30px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+ul{
+    margin: 0;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.blog__banner{
+    text-align: center;
+    padding-top: 120px;
+    min-height: 50vh;
+    /* background-color: beige; */
+}
+
+.blog__banner h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+.blog__banner span{
+    font-size: 70px;
+}
+
+.blog__banner p{
+    font-size: 25px;
+}
+
+.sample__blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.blog{
+    /* border: 1px solid gray; */
+    border-radius: 8px;
+    width: 800px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    background-color: rgb(235, 235, 235);
+}
+
+.blog a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+.footer__main{
+    background-color: rgb(198, 198, 198);
+    padding: 15px 0px;
+}
+
+.footer__main h4{
+    text-align: center;
+}
+
+h4{
+    margin: 0;
+}
+
+.quick-links{
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.quick-links a{
+    color: black;
+    text-decoration: underline;
+}
+.footer__bottom{
+    text-align: center;
+    background-color: rgb(79, 79, 79);
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+
